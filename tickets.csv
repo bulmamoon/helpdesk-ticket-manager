@@ -1,0 +1,6 @@
+ticket_id,created_at,updated_at,requester,category,priority,subject,description,status,assigned_to,resolution
+TKT-AB12C,2026-03-20 09:15:00,2026-03-20 11:30:00,Jane Smith,Software,High,Excel keeps crashing on startup,Excel crashes every time the user opens it. No error message displayed.,In Progress,Mike T.,
+TKT-XY99Z,2026-03-21 10:45:00,2026-03-21 10:45:00,Bob Johnson,Network,Medium,Cannot connect to VPN from home,User unable to connect to corporate VPN. Cisco AnyConnect error code 429.,Open,Unassigned,
+TKT-LM34P,2026-03-22 08:00:00,2026-03-23 14:20:00,Alice Brown,Account/Access,Critical,Locked out of Active Directory account,User locked out after 5 failed login attempts. Needs immediate unlock for client call.,Resolved,Sarah K.,Unlocked AD account and reset password. Advised user on password policy.
+TKT-QR77T,2026-03-23 13:00:00,2026-03-23 13:00:00,Carlos Rivera,Printer,Low,Printer not showing in device list,HP LaserJet disappeared from devices after Windows Update.,Open,Unassigned,
+TKT-DE55W,2026-03-24 07:30:00,2026-03-24 07:30:00,Emily Nguyen,Hardware,Medium,Laptop battery draining very fast,Battery goes from 100% to 20% in under 2 hours. Laptop is 18 months old.,Open,Unassigned,
