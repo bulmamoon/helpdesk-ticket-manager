@@ -6,14 +6,14 @@ A command-line IT Help Desk ticketing system built in Python. Designed to simula
 
 - **Create tickets** with requester info, category, priority, and description
 - **List all tickets** or filter by status (Open, In Progress, Resolved, etc.)
-- **Update tickets** â change status, priority, assignee, or resolution notes
+- **Update tickets** - change status, priority, assignee, or resolution notes
 - **Search tickets** by keyword across requester, subject, category, or description
-- **Summary report** â breakdown of tickets by status, priority, and category
+- **Summary report** - breakdown of tickets by status, priority, and category
 - All ticket data persisted to a local **CSV file**
 
 ## Technologies
 
-- Python 3.x (standard library only â no external dependencies)
+- Python 3.x (standard library only - no external dependencies)
 
 ## Getting Started
 
@@ -30,16 +30,16 @@ python ticket_manager.py
 
 ```
 helpdesk-ticket-manager/
-âââ ticket_manager.py   # Main application
-âââ tickets.csv         # Ticket database (auto-created on first run)
-âââ README.md
+├── ticket_manager.py   # Main application
+├── tickets.csv         # Ticket database (auto-created on first run)
+├── README.md
 ```
 
 ## Ticket Fields
 
 | Field        | Description                                      |
 |--------------|--------------------------------------------------|
-| ticket_id    | Unique ID (e.g., TKT-AB12C)                     |
+| ticket_id    | Unique ID (e.g., TKT-AB12C)                      |
 | created_at   | Timestamp when ticket was opened                 |
 | updated_at   | Timestamp of last update                         |
 | requester    | Name of the person who submitted the ticket      |
