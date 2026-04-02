@@ -142,7 +142,7 @@ def update_ticket():
             tickets[i][field] = new_val
             tickets[i]["updated_at"] = get_timestamp()
             save_tickets(tickets)
-            print(f"  [SUCCESS] Ticket {ticket_id} updated: {field} â {new_val}")
+            print(f"  [SUCCESS] Ticket {ticket_id} updated: {field} -> {new_val}")
             return
     print(f"  [ERROR] Ticket {ticket_id} not found.")
 
@@ -160,7 +160,7 @@ def search_tickets():
     else:
         print(f"\n  Found {len(results)} matching ticket(s):")
         for t in results:
-            print(f"  [{t['ticket_id']}] {t['status']} | {t['priority']} | {t['subject']} â {t['requester']}")
+            print(f"  [{t['ticket_id']}] {t['status']} | {t['priority']} | {t['subject']} -> {t['requester']}")
 
 
 def summary_report():
@@ -196,7 +196,7 @@ def main():
     menu = {
         "1": ("Create new ticket",       create_ticket),
         "2": ("List all tickets",         lambda: list_tickets()),
-         "3": ("List open tickets",        lambda: list_tickets("Open")),
+        "3": ("List open tickets",        lambda: list_tickets("Open")),
         "4": ("View ticket details",      view_ticket),
         "5": ("Update ticket",            update_ticket),
         "6": ("Search tickets",           search_tickets),
